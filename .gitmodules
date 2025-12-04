@@ -1,0 +1,15 @@
+[submodule "compare/third_party/convexAdam"]
+	path = compare/third_party/convexAdam
+	url = git@github.com:multimodallearning/convexAdam.git
+[submodule "compare/third_party/voxelmorph"]
+	path = compare/third_party/voxelmorph
+	url = git@github.com:voxelmorph/voxelmorph.git
+[submodule "compare/third_party/SGMANet-Trans"]
+	path = compare/third_party/SGMANet-Trans
+	url = git@github.com:kylewang1991/SGMANet-Trans.git
+[submodule "compare/third_party/boundary-loss"]
+	path = compare/third_party/boundary-loss
+	url = git@github.com:LIVIAETS/boundary-loss.git
+[submodule "compare/third_party/TransMorph_Transformer_for_Medical_Image_Registration"]
+	path = compare/third_party/TransMorph_Transformer_for_Medical_Image_Registration
+	url = git@github.com:junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration.git

@@ -1,0 +1,289 @@
+{
+    "provided_data": {
+        "0": [
+            "image",
+            "label"
+        ],
+        "1": [
+            "image",
+            "label"
+        ]
+    },
+    "registration_direction": {
+        "fixed": 0,
+        "moving": 1
+    },
+    "modality": {
+        "0": "CT",
+        "1": "CT"
+    },
+    "img_shift": {
+        "fixed": "CT",
+        "moving": "CT"
+    },
+    "labels": {
+        "0": {
+            "0": "background",
+            "1": "liver",
+            "2": "portalvein",
+            "3": "venous"
+        },
+        "1": {
+            "0": "background",
+            "1": "liver",
+            "2": "portalvein",
+            "3": "venous"
+        }
+    },
+    "tensorImageSize": {
+        "0": "3D",
+        "1": "3D"
+    },
+    "tensorImageShape": {
+        "0": [
+            256,
+            256,
+            128
+        ],
+        "1": [
+            256,
+            256,
+            128
+        ]
+    },
+    "voxelSpacing": {
+        "0": [
+            0.9,
+            0.9,
+            1.6
+        ],
+        "1": [
+            0.9,
+            0.9,
+            1.6
+        ]
+    },
+    "filedClip": {
+        "0": [
+            0,
+            0,
+            0
+        ],
+        "1": [
+            0,
+            0,
+            0
+        ]
+    },
+    "voxelRange": {
+        "0": [
+            0,
+            800
+        ],
+        "1": [
+            0,
+            1500
+        ]
+    },
+    "numTraining": {
+        "0": 14,
+        "1": 14
+    },
+    "numValid": {
+        "0": 2,
+        "1": 2
+    },
+    "numTest": {
+        "0": 4,
+        "1": 4
+    },
+    "training": [
+        {
+            "image": "3Dircadb1.11/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.11/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.11/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.11/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.11/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.11/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.11/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.15/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.15/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.15/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.15/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.15/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.15/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.15/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.10/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.10/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.10/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.10/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.10/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.10/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.10/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.19/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.19/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.19/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.19/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.19/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.19/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.19/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.18/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.18/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.18/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.18/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.18/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.18/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.18/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.9/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.9/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.9/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.9/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.9/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.9/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.9/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.8/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.8/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.8/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.8/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.8/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.8/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.8/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.16/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.16/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.16/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.16/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.16/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.16/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.16/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.6/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.6/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.6/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.6/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.6/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.6/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.6/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.13/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.13/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.13/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.13/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.13/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.13/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.13/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.12/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.12/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.12/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.12/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.12/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.12/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.12/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.5/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.5/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.5/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.5/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.5/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.5/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.5/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+
+        {
+            "image": "3Dircadb1.7/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.7/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.7/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.7/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.7/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.7/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.7/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.1/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.1/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.1/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.1/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.1/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.1/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.1/patient_cropped_clip_resampled_sato.nii.gz"
+        }
+    ],
+    "valid": [
+        {
+            "image": "3Dircadb1.3/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.3/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.3/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.3/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.3/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.3/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.3/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.2/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.2/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.2/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.2/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.2/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.2/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.2/patient_cropped_clip_resampled_sato.nii.gz"
+        }
+
+    ],
+    "test": [
+        {
+            "image": "3Dircadb1.14/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.14/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.14/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.14/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.14/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.14/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.14/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.17/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.17/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.17/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.17/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.17/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.17/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.17/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.20/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.20/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.20/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.20/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.20/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.20/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.20/patient_cropped_clip_resampled_sato.nii.gz"
+        },
+        {
+            "image": "3Dircadb1.4/patient_cropped_clip_resampled.nii.gz",
+            "label": "3Dircadb1.4/liver_cropped_clip_resampled.nii.gz",
+            "distance": "3Dircadb1.4/liver_cropped_clip_resampled_distance.nii.gz",
+            "vessel_contour_distance": "3Dircadb1.4/liver_contour_vessels_combined_distance.nii.gz",
+            "portalvein": "3Dircadb1.4/portalvein_cropped_clip_resampled_modified.nii.gz",
+            "venacava": "3Dircadb1.4/venacava_cropped_clip_resampled_modified.nii.gz",
+            "sato": "3Dircadb1.4/patient_cropped_clip_resampled_sato.nii.gz"
+        }
+    ],
+    "root_dir": "../3Dircadb1"
+}
